@@ -157,4 +157,36 @@
     <!-- Sprache -->
     <string name="language">Sprache</string>
     <string name="lang_follow_system">System folgen</string>
+
+    <!-- Einstellungen für Hintergrundaktivität -->
+    <string name="keep_alive_settings_title">Einstellungen für Hintergrundaktivität</string>
+    <string name="keep_alive_rom_detected">Erkanntes System: %1$s</string>
+    <string name="keep_alive_rom_unknown_hint">Kein spezifisches System erkannt, bitte allgemein zulassen</string>
+    <string name="keep_alive_list_note">Damit Erinnerungen pünktlich ankommen, empfehlen wir, jeden Punkt zu prüfen. Der Ort der Einstellungen kann je nach Systemversion etwas abweichen.</string>
+    <string name="keep_alive_notification">Benachrichtigungsberechtigung</string>
+    <string name="keep_alive_notification_desc">Banner zur eingestellten Zeit anzeigen</string>
+    <string name="keep_alive_exact_alarm">Exakter Alarm</string>
+    <string name="keep_alive_exact_alarm_desc">Pünktliches Auslösen (auf Android 12 und neuer zu bestätigen)</string>
+    <string name="keep_alive_battery">Akku-Optimierung</string>
+    <string name="keep_alive_battery_desc">Akku-Optimierung für „Zhundian“ deaktivieren, um Hintergrundbeschränkungen zu vermeiden</string>
+    <string name="keep_alive_overlay">Überlagerungsberechtigung</string>
+    <string name="keep_alive_overlay_desc">Für das „Pop-up oben“-Erinnerung erforderlich (optional)</string>
+    <string name="keep_alive_autostart">Autostart / Hintergrundverwaltung</string>
+    <string name="keep_alive_autostart_desc">Autostart und Hintergrundausführung erlauben (Pfad je nach System unterschiedlich)</string>
+    <string name="keep_alive_status_ok">Bereit</string>
+    <string name="keep_alive_status_missing">Aktion nötig</string>
+    <string name="keep_alive_action_open">Öffnen</string>
+    <string name="keep_alive_action_settings">Einstellungen</string>
+    <string name="keep_alive_autostart_hint">Bei manchen Systemen muss die App-Karte in „Zuletzt verwendet“ nach unten gezogen und gesperrt werden, damit sie nicht durch einmaliges Aufräumen beendet wird</string>
+    <string name="keep_alive_reliability_note">Zuverlässigkeit der Erinnerungen: Selbst nach Abschluss aller oben genannten Einstellungen können aggressive Energiesparrichtlinien mancher Systeme Hintergrundaktivitäten mit einer gewissen Wahrscheinlichkeit verzögern oder blockieren (Aufräumen mit einem Wisch, Tiefschlaf, Energiesparmodi usw.). Dies ist ein Systemverhalten, das keine Drittanbieter-App vollständig kontrollieren kann. Empfehlung: Fügen Sie die App zur Whitelist der Akku-Optimierung hinzu, deaktivieren Sie ihre Energiesparbeschränkungen und vermeiden Sie manuelles Aufräumen mit einem Wisch.</string>
+
+    <!-- Systemnamen -->
+    <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>
+    <string name="rom_huawei">Huawei (HarmonyOS)</string>
+    <string name="rom_honor">Honor (MagicOS)</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus (ColorOS)</string>
+    <string name="rom_vivo">vivo / iQOO (OriginOS)</string>
+    <string name="rom_samsung">Samsung (One UI)</string>
+    <string name="rom_meizu">Meizu (Flyme)</string>
+    <string name="rom_other">Sonstiges / Standard-Android</string>
 </resources>

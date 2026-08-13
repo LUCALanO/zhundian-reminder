@@ -157,4 +157,36 @@
     <!-- Язык -->
     <string name="language">Язык</string>
     <string name="lang_follow_system">По системе</string>
+
+    <!-- Настройки фоновой активности -->
+    <string name="keep_alive_settings_title">Настройки фоновой активности</string>
+    <string name="keep_alive_rom_detected">Обнаружена система: %1$s</string>
+    <string name="keep_alive_rom_unknown_hint">Конкретная система не распознана, разрешите по общим правилам</string>
+    <string name="keep_alive_list_note">Чтобы напоминания срабатывали вовремя, проверьте каждый пункт. Расположение настроек может немного отличаться в зависимости от версии системы.</string>
+    <string name="keep_alive_notification">Разрешение на уведомления</string>
+    <string name="keep_alive_notification_desc">Показывать баннер при наступлении времени</string>
+    <string name="keep_alive_exact_alarm">Точный будильник</string>
+    <string name="keep_alive_exact_alarm_desc">Срабатывание точно в срок (требует подтверждения на Android 12+)</string>
+    <string name="keep_alive_battery">Оптимизация батареи</string>
+    <string name="keep_alive_battery_desc">Отключите оптимизацию батареи для «Zhundian», чтобы ограничения фона не мешали</string>
+    <string name="keep_alive_overlay">Разрешение на оверлей</string>
+    <string name="keep_alive_overlay_desc">Нужно для всплывающего уведомления сверху (по желанию)</string>
+    <string name="keep_alive_autostart">Автозапуск / управление фоном</string>
+    <string name="keep_alive_autostart_desc">Разрешить автозапуск и работу в фоне (в разных системах путь отличается)</string>
+    <string name="keep_alive_status_ok">Готово</string>
+    <string name="keep_alive_status_missing">Требуется действие</string>
+    <string name="keep_alive_action_open">Открыть</string>
+    <string name="keep_alive_action_settings">Настройки</string>
+    <string name="keep_alive_autostart_hint">В некоторых системах нужно потянуть карточку приложения вниз в «Недавних» и зафиксировать её, чтобы её не очистило при быстрой уборке</string>
+    <string name="keep_alive_reliability_note">О надёжности напоминаний: даже после выполнения всех указанных выше настроек агрессивные режимы экономии энергии на некоторых системах могут с некоторой вероятностью задерживать или блокировать фоновую работу (быстрая очистка, глубокий сон, режимы экономии и т.д.). Это поведение системы, которое никакое стороннее приложение не может полностью контролировать. Рекомендуем добавить приложение в белый список оптимизации батареи, отключить для него ограничения экономии энергии и избегать ручной быстрой очистки.</string>
+
+    <!-- Названия систем -->
+    <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>
+    <string name="rom_huawei">Huawei (HarmonyOS)</string>
+    <string name="rom_honor">Honor (MagicOS)</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus (ColorOS)</string>
+    <string name="rom_vivo">vivo / iQOO (OriginOS)</string>
+    <string name="rom_samsung">Samsung (One UI)</string>
+    <string name="rom_meizu">Meizu (Flyme)</string>
+    <string name="rom_other">Другое / Stock Android</string>
 </resources>

@@ -157,4 +157,36 @@
     <!-- Idioma -->
     <string name="language">Idioma</string>
     <string name="lang_follow_system">Seguir sistema</string>
+
+    <!-- Ajustes de mantenimiento en segundo plano -->
+    <string name="keep_alive_settings_title">Ajustes de mantenimiento en segundo plano</string>
+    <string name="keep_alive_rom_detected">Sistema detectado: %1$s</string>
+    <string name="keep_alive_rom_unknown_hint">No se detectó un sistema específico, permite según el método general</string>
+    <string name="keep_alive_list_note">Para que los recordatorios lleguen a tiempo, revisa cada elemento. La ubicación de los ajustes puede variar ligeramente según la versión del sistema.</string>
+    <string name="keep_alive_notification">Permiso de notificaciones</string>
+    <string name="keep_alive_notification_desc">Mostrar banner a la hora indicada</string>
+    <string name="keep_alive_exact_alarm">Alarma exacta</string>
+    <string name="keep_alive_exact_alarm_desc">Disparo a la hora exacta (requiere confirmación en Android 12+)</string>
+    <string name="keep_alive_battery">Optimización de batería</string>
+    <string name="keep_alive_battery_desc">Desactivar la optimización de batería para «Zhundian» para evitar restricciones en segundo plano</string>
+    <string name="keep_alive_overlay">Permiso de superposición</string>
+    <string name="keep_alive_overlay_desc">Necesario para el recordatorio «emergente arriba» (opcional)</string>
+    <string name="keep_alive_autostart">Autoarranque / gestión en segundo plano</string>
+    <string name="keep_alive_autostart_desc">Permitir el autoarranque y la ejecución en segundo plano (la ruta varía según el sistema)</string>
+    <string name="keep_alive_status_ok">Listo</string>
+    <string name="keep_alive_status_missing">Se requiere acción</string>
+    <string name="keep_alive_action_open">Abrir</string>
+    <string name="keep_alive_action_settings">Ajustes</string>
+    <string name="keep_alive_autostart_hint">En algunos sistemas también debes deslizar hacia abajo la tarjeta de la app en «Recientes» y bloquearla para que no se cierre con la limpieza de un toque</string>
+    <string name="keep_alive_reliability_note">Fiabilidad de los recordatorios: incluso después de completar todos los ajustes anteriores, las políticas agresivas de ahorro de energía de algunos sistemas pueden, con cierta probabilidad, retrasar o bloquear la ejecución en segundo plano (limpieza de un toque, sueño profundo, modos de ahorro de energía, etc.). Es un comportamiento del sistema que ninguna app de terceros puede controlar por completo. Recomendamos añadir la app a la lista blanca de optimización de batería, desactivar sus restricciones de ahorro de energía y evitar la limpieza manual de un toque.</string>
+
+    <!-- Nombres de sistemas -->
+    <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>
+    <string name="rom_huawei">Huawei (HarmonyOS)</string>
+    <string name="rom_honor">Honor (MagicOS)</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus (ColorOS)</string>
+    <string name="rom_vivo">vivo / iQOO (OriginOS)</string>
+    <string name="rom_samsung">Samsung (One UI)</string>
+    <string name="rom_meizu">Meizu (Flyme)</string>
+    <string name="rom_other">Otro / Android de serie</string>
 </resources>

@@ -157,4 +157,36 @@
     <!-- 言語切り替え -->
     <string name="language">言語</string>
     <string name="lang_follow_system">システムに従う</string>
+
+    <!-- バックグラウンド維持設定 -->
+    <string name="keep_alive_settings_title">バックグラウンド維持設定</string>
+    <string name="keep_alive_rom_detected">検出されたシステム：%1$s</string>
+    <string name="keep_alive_rom_unknown_hint">特定のシステムを検出できませんでした。一般的な方法で許可してください</string>
+    <string name="keep_alive_list_note">リマインダーを確実に届けるため、各項目を確認することをおすすめします。設定の場所はシステムバージョンにより若干異なる場合があります。</string>
+    <string name="keep_alive_notification">通知権限</string>
+    <string name="keep_alive_notification_desc">時刻になるとバナーの通知を表示</string>
+    <string name="keep_alive_exact_alarm">正確なアラーム</string>
+    <string name="keep_alive_exact_alarm_desc">時刻どおりに正確に通知（Android 12 以上で確認が必要）</string>
+    <string name="keep_alive_battery">バッテリー最適化</string>
+    <string name="keep_alive_battery_desc">「準点」のバッテリー最適化を無効にし、バックグラウンドの制限を回避</string>
+    <string name="keep_alive_overlay">オーバーレイ権限</string>
+    <string name="keep_alive_overlay_desc">「画面上部のポップアップ」リマインダー使用時に必要（任意）</string>
+    <string name="keep_alive_autostart">自動起動 / バックグラウンド管理</string>
+    <string name="keep_alive_autostart_desc">アプリの自動起動とバックグラウンド実行を許可（各システムで場所が異なる）</string>
+    <string name="keep_alive_status_ok">準備完了</string>
+    <string name="keep_alive_status_missing">操作が必要</string>
+    <string name="keep_alive_action_open">開く</string>
+    <string name="keep_alive_action_settings">設定へ</string>
+    <string name="keep_alive_autostart_hint">一部のシステムでは、「最近使ったアプリ」で本アプリのカードを下に引いてロックすると、ワンタップクリアで消されなくなります</string>
+    <string name="keep_alive_reliability_note">リマインダーの信頼性について：上記の設定をすべて完了しても、一部のシステムの積極的な省電力施策により、バックグラウンドの実行が一定の確率で遅延・阻止されることがあります（ワンタップクリア、ディープスリープ、省電力モードなど）。これはシステムの仕様であり、第三者製アプリから完全に制御することはできません。本アプリをバッテリー最適化のホワイトリストに登録し、省電力の制限を解除し、手動のワンタップクリアは避けることをおすすめします。</string>
+
+    <!-- ROM 表示名 -->
+    <string name="rom_xiaomi">Xiaomi / Redmi（MIUI / HyperOS）</string>
+    <string name="rom_huawei">Huawei（HarmonyOS）</string>
+    <string name="rom_honor">Honor（MagicOS）</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus（ColorOS）</string>
+    <string name="rom_vivo">vivo / iQOO（OriginOS）</string>
+    <string name="rom_samsung">Samsung（One UI）</string>
+    <string name="rom_meizu">Meizu（Flyme）</string>
+    <string name="rom_other">その他 / 標準 Android</string>
 </resources>

@@ -157,4 +157,36 @@
     <!-- Langue -->
     <string name="language">Langue</string>
     <string name="lang_follow_system">Suivre le système</string>
+
+    <!-- Paramètres de maintien en arrière-plan -->
+    <string name="keep_alive_settings_title">Paramètres de maintien en arrière-plan</string>
+    <string name="keep_alive_rom_detected">Système détecté : %1$s</string>
+    <string name="keep_alive_rom_unknown_hint">Système spécifique non détecté, autorisez selon la méthode générale</string>
+    <string name="keep_alive_list_note">Pour que les rappels arrivent à l\'heure, vérifiez chaque élément. L\'emplacement des réglages peut légèrement varier selon la version du système.</string>
+    <string name="keep_alive_notification">Autorisation de notification</string>
+    <string name="keep_alive_notification_desc">Afficher une bannière à l\'heure dite</string>
+    <string name="keep_alive_exact_alarm">Alarme exacte</string>
+    <string name="keep_alive_exact_alarm_desc">Déclenchement à l\'heure exacte (à confirmer sur Android 12 et plus)</string>
+    <string name="keep_alive_battery">Optimisation de la batterie</string>
+    <string name="keep_alive_battery_desc">Désactiver l\'optimisation de la batterie pour « Zhundian » afin d\'éviter les restrictions en arrière-plan</string>
+    <string name="keep_alive_overlay">Autorisation de superposition</string>
+    <string name="keep_alive_overlay_desc">Requis pour le rappel « pop-up en haut » (optionnel)</string>
+    <string name="keep_alive_autostart">Démarrage auto / gestion en arrière-plan</string>
+    <string name="keep_alive_autostart_desc">Autoriser le démarrage automatique et l\'exécution en arrière-plan (chemin différent selon le système)</string>
+    <string name="keep_alive_status_ok">Prêt</string>
+    <string name="keep_alive_status_missing">Action requise</string>
+    <string name="keep_alive_action_open">Ouvrir</string>
+    <string name="keep_alive_action_settings">Réglages</string>
+    <string name="keep_alive_autostart_hint">Sur certains systèmes, il faut aussi faire glisser vers le bas la carte de l\'application dans « Applications récentes » et la verrouiller pour éviter qu\'elle soit fermée par le nettoyage en un geste</string>
+    <string name="keep_alive_reliability_note">Fiabilité des rappels : même après avoir complété tous les réglages ci-dessus, les politiques agressives d\'économie d\'énergie de certains systèmes peuvent, avec une certaine probabilité, retarder ou bloquer l\'exécution en arrière-plan (nettoyage en un geste, veille profonde, modes d\'économie d\'énergie, etc.). Il s\'agit d\'un comportement du système qu\'aucune application tierce ne peut entièrement contrôler. Nous recommandons de mettre l\'application sur liste blanche d\'optimisation de la batterie, de désactiver ses restrictions d\'économie d\'énergie et d\'éviter le nettoyage manuel en un geste.</string>
+
+    <!-- Noms des systèmes -->
+    <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>
+    <string name="rom_huawei">Huawei (HarmonyOS)</string>
+    <string name="rom_honor">Honor (MagicOS)</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus (ColorOS)</string>
+    <string name="rom_vivo">vivo / iQOO (OriginOS)</string>
+    <string name="rom_samsung">Samsung (One UI)</string>
+    <string name="rom_meizu">Meizu (Flyme)</string>
+    <string name="rom_other">Autre / Android d\'origine</string>
 </resources>

@@ -157,4 +157,36 @@
     <!-- 語言切換 -->
     <string name="language">語言</string>
     <string name="lang_follow_system">跟隨系統</string>
+
+    <!-- 后台保活设置页 -->
+    <string name="keep_alive_settings_title">後台保活設定</string>
+    <string name="keep_alive_rom_detected">已識別系統：%1$s</string>
+    <string name="keep_alive_rom_unknown_hint">未識別到特定系統，請依通用方式放行</string>
+    <string name="keep_alive_list_note">為確保提醒準時送達，建議逐項檢查。設定入口可能隨系統版本略有差異。</string>
+    <string name="keep_alive_notification">通知權限</string>
+    <string name="keep_alive_notification_desc">到點彈出橫幅通知</string>
+    <string name="keep_alive_exact_alarm">精確鬧鐘</string>
+    <string name="keep_alive_exact_alarm_desc">到點準時觸發（Android 12 以上需確認）</string>
+    <string name="keep_alive_battery">電池最佳化</string>
+    <string name="keep_alive_battery_desc">關閉對「準點」的電池最佳化，避免背景被限制</string>
+    <string name="keep_alive_overlay">懸浮視窗權限</string>
+    <string name="keep_alive_overlay_desc">使用「頂部彈窗」提醒時需要（可選）</string>
+    <string name="keep_alive_autostart">自啟動 / 背景管理</string>
+    <string name="keep_alive_autostart_desc">允許應用程式自啟動並在背景執行（各系統路徑不同）</string>
+    <string name="keep_alive_status_ok">已就緒</string>
+    <string name="keep_alive_status_missing">需操作</string>
+    <string name="keep_alive_action_open">前往開啟</string>
+    <string name="keep_alive_action_settings">前往設定</string>
+    <string name="keep_alive_autostart_hint">部分系統還需在「最近任務」中下拉本應用程式卡片並鎖定，避免被一鍵清理</string>
+    <string name="keep_alive_reliability_note">提醒可靠性說明：即使完成上述所有設定，部分系統的激進省電策略仍可能以一定機率延遲或阻止背景執行（一鍵清理、深度休眠、省電模式等）。此為系統行為，任何第三方應用程式都無法完全控制。建議將本應用程式加入電池最佳化白名單、關閉針對它的省電限制，並避免手動一鍵清理。</string>
+
+    <!-- ROM 显示名 -->
+    <string name="rom_xiaomi">小米 / 紅米（MIUI / HyperOS）</string>
+    <string name="rom_huawei">華為（HarmonyOS）</string>
+    <string name="rom_honor">榮耀（MagicOS）</string>
+    <string name="rom_oppo">OPPO / Realme / 一加（ColorOS）</string>
+    <string name="rom_vivo">vivo / iQOO（OriginOS）</string>
+    <string name="rom_samsung">三星（One UI）</string>
+    <string name="rom_meizu">魅族（Flyme）</string>
+    <string name="rom_other">其他 / 原生 Android</string>
 </resources>
