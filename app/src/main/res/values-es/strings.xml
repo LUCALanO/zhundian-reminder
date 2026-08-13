@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">A tiempo</string>
+
+    <!-- Pantalla de lista -->
+    <string name="reminder_list_title">Mis recordatorios</string>
+    <string name="add_reminder">Nuevo recordatorio</string>
+    <string name="empty_list">No hay recordatorios todavía\nPulsa + abajo para crear uno</string>
+    <string name="next_trigger_at">Próximo: %1$s</string>
+    <string name="enabled">Activado</string>
+    <string name="disabled">Desactivado</string>
+    <string name="delete">Eliminar</string>
+    <string name="edit">Editar</string>
+
+    <!-- Pantalla de edición -->
+    <string name="create_title">Nuevo recordatorio</string>
+    <string name="edit_title">Editar recordatorio</string>
+    <string name="reminder_name">Nombre del recordatorio</string>
+    <string name="reminder_name_hint">Ej.: tomar la medicación</string>
+    <string name="interval">Intervalo</string>
+    <string name="interval_unit_minutes">min</string>
+    <string name="interval_unit_hours">h</string>
+    <string name="interval_unit_days">días</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">Sonido</string>
+    <string name="sound_hint">Suena aunque el sonido de las notificaciones del sistema esté desactivado</string>
+    <string name="ringtone">Tono de alarma</string>
+    <string name="ringtone_default">Tono de alarma del sistema por defecto</string>
+    <string name="choose_ringtone">Elegir tono</string>
+    <string name="ringtone_local">Audio local</string>
+    <string name="ringtone_reset">Restablecer</string>
+    <string name="local_audio_pick_failed">No se pudo conservar el acceso a este audio. Prueba con otro archivo.</string>
+    <string name="sound_volume">Volumen</string>
+    <string name="sound_volume_percent">%1$d %%</string>
+    <string name="sound_duration">Duración</string>
+    <string name="sound_duration_seconds">%1$d s</string>
+    <string name="vibration_enabled">Vibración</string>
+    <string name="vibration_hint">Vibra aunque la vibración de las notificaciones del sistema esté desactivada</string>
+    <string name="overlay_enabled">Ventana emergente</string>
+    <string name="overlay_hint">Mostrar el recordatorio en la parte superior de la pantalla</string>
+    <string name="save">Guardar</string>
+    <string name="name_required">Introduce el nombre del recordatorio</string>
+    <string name="interval_invalid">Introduce un intervalo mayor que 0</string>
+    <string name="trigger_time">Hora de aviso</string>
+    <string name="trigger_time_hint">Solo se aplica a intervalos de días. Siempre avisa a esta hora (p. ej. cada 2 días a las 06:00)</string>
+
+    <!-- Permisos -->
+    <string name="permission_hint_title">Permisos necesarios</string>
+    <string name="permission_hint_notification">El permiso de notificaciones está desactivado. No se mostrarán banners.</string>
+    <string name="permission_hint_exact_alarm">El permiso de alarma exacta está desactivado. Los recordatorios pueden no sonar a tiempo.</string>
+    <string name="permission_hint_battery">La optimización de batería está activada. Los recordatorios en segundo plano pueden retrasarse.</string>
+    <string name="grant_permission">Activar</string>
+    <string name="overlay_permission_hint">La ventana emergente necesita el permiso «Mostrar sobre otras aplicaciones»</string>
+    <string name="grant_overlay">Activar</string>
+
+    <!-- Mantener en segundo plano -->
+    <string name="autostart_hint_title">Configuración de segundo plano</string>
+    <string name="autostart_hint_text">Para que los recordatorios lleguen a tiempo, permite el autoarranque de la app y bloquea su tarjeta en Recientes deslizándola hacia abajo.</string>
+    <string name="open_autostart_settings">Abrir configuración</string>
+
+    <!-- Notificaciones -->
+    <string name="notification_channel_vibration">Recordatorios (vibración)</string>
+    <string name="notification_channel_silent">Recordatorios (silencio)</string>
+    <string name="notification_channel_service">Servicio en segundo plano</string>
+    <string name="notification_channel_service_desc">Mantiene la app en segundo plano para que los recordatorios lleguen a tiempo</string>
+    <string name="service_notification_title">A tiempo en ejecución</string>
+    <string name="service_notification_text">Funcionando en segundo plano para entregar recordatorios a tiempo</string>
+    <string name="notification_content">¡Es la hora! No olvides hacer esto</string>
+    <string name="notification_action_complete">Hecho</string>
+    <string name="notification_action_snooze">Recordar en 1 hora</string>
+
+    <!-- Pantalla de edición · mensaje -->
+    <string name="reminder_message">Mensaje</string>
+    <string name="reminder_message_hint">Texto mostrado en la notificación (vacío = texto por defecto)</string>
+
+    <!-- Calendario -->
+    <string name="calendar_title">Calendario</string>
+    <string name="calendar_legend_completed">Completado</string>
+    <string name="calendar_legend_triggered">Disparado</string>
+    <string name="calendar_legend_snoozed">Reprogramado</string>
+    <string name="calendar_go_today">Hoy</string>
+    <string name="calendar_no_record">Sin registros este día</string>
+    <string name="calendar_delete_record">Eliminar este registro</string>
+    <string name="calendar_delete_record_title">¿Eliminar este registro?</string>
+    <string name="calendar_delete_record_message">No se puede deshacer.</string>
+    <string name="cancel">Cancelar</string>
+    <string name="calendar_legend_global_hint">Los puntos son los recordatorios (toca una fecha para ver el detalle)</string>
+    <string name="calendar_prev_month">Mes anterior</string>
+    <string name="calendar_next_month">Mes siguiente</string>
+    <string name="calendar_open">Ver calendario</string>
+    <string name="calendar_global_open">Ver el calendario de todos los recordatorios</string>
+
+    <!-- Navegación inferior -->
+    <string name="nav_tab_reminders">Recordatorios</string>
+    <string name="nav_tab_calendar">Calendario</string>
+
+    <!-- Calendario · eliminación múltiple -->
+    <string name="calendar_batch_delete">Eliminación múltiple</string>
+    <string name="calendar_batch_select_all">Seleccionar todo</string>
+    <string name="calendar_batch_selected">Eliminar seleccionados</string>
+    <string name="calendar_batch_delete_title">¿Eliminar los %1$d registros seleccionados?</string>
+
+    <!-- Calendario · eventos del sistema -->
+    <string name="calendar_settings">Ajustes</string>
+    <string name="calendar_mode_triggers">Disparos</string>
+    <string name="calendar_mode_events">Eventos</string>
+    <string name="calendar_sync_refresh">Actualizar calendario del sistema</string>
+    <string name="calendar_event_permission_hint">Se necesita el permiso «Leer calendario» para sincronizar el calendario del sistema</string>
+    <string name="calendar_sync_in_progress">Sincronizando calendario del sistema…</string>
+    <string name="calendar_sync_done">Sincronizado: %1$d añadidos, %2$d actualizados, %3$d eliminados</string>
+    <string name="calendar_sync_failed">Error de sincronización. Comprueba los permisos e inténtalo de nuevo.</string>
+    <string name="calendar_sync_not_permitted">No se ha concedido el permiso «Leer calendario». No se puede sincronizar.</string>
+    <string name="calendar_event_delete">Eliminar este evento</string>
+    <string name="calendar_event_delete_title">¿Eliminar este evento?</string>
+    <string name="calendar_event_delete_message">Solo se elimina de esta app, sin afectar al calendario del sistema. Puedes deshacer o restaurar desde «Eventos eliminados».</string>
+    <string name="calendar_event_all_day">Todo el día</string>
+    <string name="undo">Deshacer</string>
+    <string name="calendar_event_deleted_snackbar">Se eliminó «%1$s»</string>
+    <string name="calendar_event_deleted_entry">Eventos eliminados (%1$d)</string>
+    <string name="calendar_event_deleted_title">Eventos eliminados</string>
+    <string name="calendar_event_restore">Restaurar</string>
+    <string name="calendar_event_delete_permanent">Eliminar definitivamente</string>
+    <string name="calendar_event_deleted_empty">No hay eventos eliminados</string>
+    <string name="calendar_event_deleted_close">Cerrar</string>
+
+    <!-- Nuevo evento -->
+    <string name="event_add">Nuevo evento</string>
+    <string name="event_edit_title">Nuevo evento</string>
+    <string name="event_title">Título</string>
+    <string name="event_title_hint">Ej.: revisión médica</string>
+    <string name="event_title_required">Introduce el título del evento</string>
+    <string name="event_date">Fecha</string>
+    <string name="event_all_day">Todo el día</string>
+    <string name="event_all_day_hint">Programado solo por fecha, sin hora de inicio/fin</string>
+    <string name="event_start_time">Hora de inicio</string>
+    <string name="event_end_time">Hora de fin</string>
+    <string name="event_time_invalid">La hora de fin debe ser posterior a la de inicio</string>
+    <string name="event_location">Lugar</string>
+    <string name="event_description">Notas</string>
+    <string name="event_description_hint">Opcional</string>
+    <string name="event_remind">Recordarme</string>
+    <string name="event_remind_hint">Recordar según los «ajustes de recordatorio de eventos» a la hora prevista</string>
+    <string name="confirm">Aceptar</string>
+
+    <!-- Recordatorios de eventos · ajustes globales -->
+    <string name="calendar_settings_title">Ajustes de recordatorio de eventos</string>
+    <string name="calendar_settings_note">Estos ajustes solo afectan a los recordatorios de eventos del calendario del sistema, no a los recordatorios de intervalo.</string>
+    <string name="calendar_auto_sync">Sincronización automática del calendario del sistema</string>
+    <string name="calendar_auto_sync_hint">Lee automáticamente el calendario del sistema al inicio y en segundo plano</string>
+    <string name="calendar_lead_minutes">Recordar antes (min)</string>
+    <string name="calendar_lead_minutes_hint">0 = recordar al inicio del evento; ej. 10 = 10 minutos antes</string>
+    <string name="calendar_sync_sources_title">Calendarios a sincronizar</string>
+    <string name="calendar_sync_sources_hint">Los calendarios no marcados no se importarán ni activarán recordatorios. Los calendarios de solo lectura del sistema (festivos, estaciones, etc.) vienen desmarcados por defecto.</string>
+    <string name="calendar_source_read_only">Solo lectura (sistema)</string>
+    <string name="calendar_sources_permission_hint">Se necesita el permiso «Leer calendario» para mostrar y seleccionar los calendarios a sincronizar</string>
+    <string name="calendar_sources_empty">No se encontraron calendarios para sincronizar</string>
+
+    <!-- Idioma -->
+    <string name="language">Idioma</string>
+    <string name="lang_follow_system">Seguir sistema</string>
+</resources>

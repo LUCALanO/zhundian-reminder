@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">À l\'heure</string>
+
+    <!-- Écran de liste -->
+    <string name="reminder_list_title">Mes rappels</string>
+    <string name="add_reminder">Nouveau rappel</string>
+    <string name="empty_list">Aucun rappel pour l\'instant\nAppuyez sur + en bas pour en créer un</string>
+    <string name="next_trigger_at">Prochain : %1$s</string>
+    <string name="enabled">Activé</string>
+    <string name="disabled">Désactivé</string>
+    <string name="delete">Supprimer</string>
+    <string name="edit">Modifier</string>
+
+    <!-- Écran d\'édition -->
+    <string name="create_title">Nouveau rappel</string>
+    <string name="edit_title">Modifier le rappel</string>
+    <string name="reminder_name">Nom du rappel</string>
+    <string name="reminder_name_hint">Ex. : prendre un médicament</string>
+    <string name="interval">Intervalle</string>
+    <string name="interval_unit_minutes">min</string>
+    <string name="interval_unit_hours">h</string>
+    <string name="interval_unit_days">j</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">Son</string>
+    <string name="sound_hint">Sonne même si les sons système des notifications sont désactivés</string>
+    <string name="ringtone">Sonnerie</string>
+    <string name="ringtone_default">Sonnerie d\'alarme système par défaut</string>
+    <string name="choose_ringtone">Choisir une sonnerie</string>
+    <string name="ringtone_local">Audio local</string>
+    <string name="ringtone_reset">Réinitialiser</string>
+    <string name="local_audio_pick_failed">Impossible de conserver l\'accès à cet audio. Essayez un autre fichier.</string>
+    <string name="sound_volume">Volume</string>
+    <string name="sound_volume_percent">%1$d %%</string>
+    <string name="sound_duration">Durée</string>
+    <string name="sound_duration_seconds">%1$d s</string>
+    <string name="vibration_enabled">Vibration</string>
+    <string name="vibration_hint">Vibre même si la vibration des notifications système est désactivée</string>
+    <string name="overlay_enabled">Fenêtre contextuelle</string>
+    <string name="overlay_hint">Afficher le rappel en haut de l\'écran</string>
+    <string name="save">Enregistrer</string>
+    <string name="name_required">Veuillez saisir un nom de rappel</string>
+    <string name="interval_invalid">Veuillez saisir un intervalle supérieur à 0</string>
+    <string name="trigger_time">Heure de déclenchement</string>
+    <string name="trigger_time_hint">S\'applique uniquement aux intervalles en jours. Déclenche toujours à cette heure (ex. tous les 2 jours à 06:00)</string>
+
+    <!-- Autorisations -->
+    <string name="permission_hint_title">Autorisations requises</string>
+    <string name="permission_hint_notification">L\'autorisation de notification est désactivée. Les bannières ne s\'afficheront pas.</string>
+    <string name="permission_hint_exact_alarm">L\'autorisation d\'alarme exacte est désactivée. Les rappels risquent de ne pas sonner à l\'heure.</string>
+    <string name="permission_hint_battery">L\'optimisation de la batterie est activée. Les rappels en arrière-plan peuvent être retardés.</string>
+    <string name="grant_permission">Activer</string>
+    <string name="overlay_permission_hint">La fenêtre contextuelle nécessite l\'autorisation « Afficher par-dessus d\'autres applications »</string>
+    <string name="grant_overlay">Activer</string>
+
+    <!-- Fonctionnement en arrière-plan -->
+    <string name="autostart_hint_title">Paramètres d\'arrière-plan</string>
+    <string name="autostart_hint_text">Pour garantir la ponctualité des rappels, autorisez l\'auto-démarrage de l\'application et verrouillez sa carte dans les récents en la faisant glisser vers le bas.</string>
+    <string name="open_autostart_settings">Ouvrir les paramètres</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_vibration">Rappels (vibration)</string>
+    <string name="notification_channel_silent">Rappels (silencieux)</string>
+    <string name="notification_channel_service">Service en arrière-plan</string>
+    <string name="notification_channel_service_desc">Maintient l\'application en arrière-plan pour livrer les rappels à l\'heure</string>
+    <string name="service_notification_title">À l\'heure en cours</string>
+    <string name="service_notification_text">Fonctionne en arrière-plan pour livrer les rappels à l\'heure</string>
+    <string name="notification_content">C\'est l\'heure ! N\'oubliez pas de faire ceci</string>
+    <string name="notification_action_complete">Terminé</string>
+    <string name="notification_action_snooze">Rappeler dans 1 h</string>
+
+    <!-- Écran d\'édition · message -->
+    <string name="reminder_message">Message</string>
+    <string name="reminder_message_hint">Texte affiché dans la notification (vide = texte par défaut)</string>
+
+    <!-- Calendrier -->
+    <string name="calendar_title">Calendrier</string>
+    <string name="calendar_legend_completed">Terminé</string>
+    <string name="calendar_legend_triggered">Déclenché</string>
+    <string name="calendar_legend_snoozed">Reporté</string>
+    <string name="calendar_go_today">Aujourd\'hui</string>
+    <string name="calendar_no_record">Aucune entrée ce jour</string>
+    <string name="calendar_delete_record">Supprimer cette entrée</string>
+    <string name="calendar_delete_record_title">Supprimer cette entrée ?</string>
+    <string name="calendar_delete_record_message">Cette action est irréversible.</string>
+    <string name="cancel">Annuler</string>
+    <string name="calendar_legend_global_hint">Les points correspondent aux rappels (appuyez sur une date pour les détails)</string>
+    <string name="calendar_prev_month">Mois précédent</string>
+    <string name="calendar_next_month">Mois suivant</string>
+    <string name="calendar_open">Voir le calendrier</string>
+    <string name="calendar_global_open">Voir le calendrier de tous les rappels</string>
+
+    <!-- Navigation inférieure -->
+    <string name="nav_tab_reminders">Rappels</string>
+    <string name="nav_tab_calendar">Calendrier</string>
+
+    <!-- Calendrier · suppression multiple -->
+    <string name="calendar_batch_delete">Suppression multiple</string>
+    <string name="calendar_batch_select_all">Tout sélectionner</string>
+    <string name="calendar_batch_selected">Supprimer la sélection</string>
+    <string name="calendar_batch_delete_title">Supprimer les %1$d entrées sélectionnées ?</string>
+
+    <!-- Calendrier · événements système -->
+    <string name="calendar_settings">Paramètres</string>
+    <string name="calendar_mode_triggers">Déclenchements</string>
+    <string name="calendar_mode_events">Événements</string>
+    <string name="calendar_sync_refresh">Actualiser le calendrier système</string>
+    <string name="calendar_event_permission_hint">L\'autorisation « Lire le calendrier » est requise pour synchroniser le calendrier système</string>
+    <string name="calendar_sync_in_progress">Synchronisation du calendrier système…</string>
+    <string name="calendar_sync_done">Synchronisé : %1$d ajouté(s), %2$d actualisé(s), %3$d supprimé(s)</string>
+    <string name="calendar_sync_failed">Échec de la synchronisation. Vérifiez les autorisations et réessayez.</string>
+    <string name="calendar_sync_not_permitted">L\'autorisation « Lire le calendrier » n\'est pas accordée. Synchronisation impossible.</string>
+    <string name="calendar_event_delete">Supprimer cet événement</string>
+    <string name="calendar_event_delete_title">Supprimer cet événement ?</string>
+    <string name="calendar_event_delete_message">Uniquement retiré de cette application, sans effet sur le calendrier système. Vous pouvez annuler ou restaurer depuis « Événements supprimés ».</string>
+    <string name="calendar_event_all_day">Journée entière</string>
+    <string name="undo">Annuler</string>
+    <string name="calendar_event_deleted_snackbar">« %1$s » supprimé</string>
+    <string name="calendar_event_deleted_entry">Événements supprimés (%1$d)</string>
+    <string name="calendar_event_deleted_title">Événements supprimés</string>
+    <string name="calendar_event_restore">Restaurer</string>
+    <string name="calendar_event_delete_permanent">Supprimer définitivement</string>
+    <string name="calendar_event_deleted_empty">Aucun événement supprimé</string>
+    <string name="calendar_event_deleted_close">Fermer</string>
+
+    <!-- Nouvel événement -->
+    <string name="event_add">Nouvel événement</string>
+    <string name="event_edit_title">Nouvel événement</string>
+    <string name="event_title">Titre</string>
+    <string name="event_title_hint">Ex. : contrôle médical</string>
+    <string name="event_title_required">Veuillez saisir un titre d\'événement</string>
+    <string name="event_date">Date</string>
+    <string name="event_all_day">Journée entière</string>
+    <string name="event_all_day_hint">Planifié par date uniquement, sans heure de début/fin</string>
+    <string name="event_start_time">Heure de début</string>
+    <string name="event_end_time">Heure de fin</string>
+    <string name="event_time_invalid">L\'heure de fin doit être postérieure à l\'heure de début</string>
+    <string name="event_location">Lieu</string>
+    <string name="event_description">Remarques</string>
+    <string name="event_description_hint">Facultatif</string>
+    <string name="event_remind">Me rappeler</string>
+    <string name="event_remind_hint">Rappel conforme aux « paramètres des rappels d\'événements » à l\'heure prévue</string>
+    <string name="confirm">OK</string>
+
+    <!-- Rappels d\'événements · paramètres globaux -->
+    <string name="calendar_settings_title">Paramètres des rappels d\'événements</string>
+    <string name="calendar_settings_note">Ces paramètres ne s\'appliquent qu\'aux rappels d\'événements du calendrier système, pas aux rappels d\'intervalle.</string>
+    <string name="calendar_auto_sync">Synchronisation automatique du calendrier système</string>
+    <string name="calendar_auto_sync_hint">Lit automatiquement le calendrier système au démarrage et en arrière-plan</string>
+    <string name="calendar_lead_minutes">Rappeler à l\'avance (min)</string>
+    <string name="calendar_lead_minutes_hint">0 = rappel au début de l\'événement ; ex. 10 = 10 minutes à l\'avance</string>
+    <string name="calendar_sync_sources_title">Calendriers à synchroniser</string>
+    <string name="calendar_sync_sources_hint">Les calendriers non cochés ne seront pas importés et ne déclencheront aucun rappel. Les calendriers système en lecture seule (fêtes, saisons, etc.) sont décochés par défaut.</string>
+    <string name="calendar_source_read_only">Lecture seule (système)</string>
+    <string name="calendar_sources_permission_hint">L\'autorisation « Lire le calendrier » est requise pour afficher et choisir les calendriers à synchroniser</string>
+    <string name="calendar_sources_empty">Aucun calendrier à synchroniser</string>
+
+    <!-- Langue -->
+    <string name="language">Langue</string>
+    <string name="lang_follow_system">Suivre le système</string>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <!-- 基础主题：Compose 绘制全部界面，仅需无 ActionBar 主题 -->
+    <style name="Theme.IntervalReminder" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>

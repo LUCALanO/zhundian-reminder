@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">OnTime</string>
+
+    <!-- List screen -->
+    <string name="reminder_list_title">My Reminders</string>
+    <string name="add_reminder">New Reminder</string>
+    <string name="empty_list">No reminders yet\nTap + to create one</string>
+    <string name="next_trigger_at">Next: %1$s</string>
+    <string name="enabled">Enabled</string>
+    <string name="disabled">Disabled</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <!-- Edit screen -->
+    <string name="create_title">New Reminder</string>
+    <string name="edit_title">Edit Reminder</string>
+    <string name="reminder_name">Reminder Name</string>
+    <string name="reminder_name_hint">e.g. Take medicine</string>
+    <string name="interval">Interval</string>
+    <string name="interval_unit_minutes">min</string>
+    <string name="interval_unit_hours">h</string>
+    <string name="interval_unit_days">days</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">Sound</string>
+    <string name="sound_hint">Rings even if system notification sounds are off</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="ringtone_default">Default system alarm sound</string>
+    <string name="choose_ringtone">Choose ringtone</string>
+    <string name="ringtone_local">Local audio</string>
+    <string name="ringtone_reset">Reset to default</string>
+    <string name="local_audio_pick_failed">Couldn\'t keep access to this audio. Try another file.</string>
+    <string name="sound_volume">Volume</string>
+    <string name="sound_volume_percent">%1$d%%</string>
+    <string name="sound_duration">Duration</string>
+    <string name="sound_duration_seconds">%1$d sec</string>
+    <string name="vibration_enabled">Vibration</string>
+    <string name="vibration_hint">Vibrates even if system notification vibration is off</string>
+    <string name="overlay_enabled">Popup</string>
+    <string name="overlay_hint">Show a reminder at the top of the screen</string>
+    <string name="save">Save</string>
+    <string name="name_required">Please enter a reminder name</string>
+    <string name="interval_invalid">Please enter an interval greater than 0</string>
+    <string name="trigger_time">Trigger time</string>
+    <string name="trigger_time_hint">Applies only to day intervals. Always fires at this time (e.g. every 2 days at 06:00)</string>
+
+    <!-- Permission hints -->
+    <string name="permission_hint_title">Permissions required</string>
+    <string name="permission_hint_notification">Notification permission is off. Reminders won\'t show banners.</string>
+    <string name="permission_hint_exact_alarm">Exact alarm permission is off. Reminders may not fire on time.</string>
+    <string name="permission_hint_battery">Battery optimization is on. Background reminders may be delayed.</string>
+    <string name="grant_permission">Enable</string>
+    <string name="overlay_permission_hint">Popup needs "Display over other apps" permission</string>
+    <string name="grant_overlay">Enable</string>
+
+    <!-- Background keep-alive -->
+    <string name="autostart_hint_title">Background settings</string>
+    <string name="autostart_hint_text">To ensure reminders arrive on time, please allow this app to auto-start and lock the app card in Recents by pulling it down.</string>
+    <string name="open_autostart_settings">Open settings</string>
+
+    <!-- Notifications -->
+    <string name="notification_channel_vibration">Reminders (Vibrate)</string>
+    <string name="notification_channel_silent">Reminders (Silent)</string>
+    <string name="notification_channel_service">Background service</string>
+    <string name="notification_channel_service_desc">Keeps the app running in the background so reminders arrive on time</string>
+    <string name="service_notification_title">OnTime running</string>
+    <string name="service_notification_text">Running in the background to deliver reminders on time</string>
+    <string name="notification_content">It\'s time — don\'t forget to do this</string>
+    <string name="notification_action_complete">Done</string>
+    <string name="notification_action_snooze">Remind in 1 hour</string>
+
+    <!-- Edit screen · message -->
+    <string name="reminder_message">Message</string>
+    <string name="reminder_message_hint">Text shown in the notification (leave empty for default)</string>
+
+    <!-- Calendar -->
+    <string name="calendar_title">Calendar</string>
+    <string name="calendar_legend_completed">Completed</string>
+    <string name="calendar_legend_triggered">Triggered</string>
+    <string name="calendar_legend_snoozed">Rescheduled</string>
+    <string name="calendar_go_today">Today</string>
+    <string name="calendar_no_record">No records on this day</string>
+    <string name="calendar_delete_record">Delete this record</string>
+    <string name="calendar_delete_record_title">Delete this record?</string>
+    <string name="calendar_delete_record_message">This cannot be undone.</string>
+    <string name="cancel">Cancel</string>
+    <string name="calendar_legend_global_hint">Dots are reminders (tap a date for details)</string>
+    <string name="calendar_prev_month">Previous month</string>
+    <string name="calendar_next_month">Next month</string>
+    <string name="calendar_open">View calendar</string>
+    <string name="calendar_global_open">View calendar for all reminders</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_tab_reminders">Reminders</string>
+    <string name="nav_tab_calendar">Calendar</string>
+
+    <!-- Calendar · batch delete -->
+    <string name="calendar_batch_delete">Batch delete</string>
+    <string name="calendar_batch_select_all">Select all</string>
+    <string name="calendar_batch_selected">Delete selected</string>
+    <string name="calendar_batch_delete_title">Delete the %1$d selected record(s)?</string>
+
+    <!-- Calendar · system events view -->
+    <string name="calendar_settings">Settings</string>
+    <string name="calendar_mode_triggers">Triggers</string>
+    <string name="calendar_mode_events">Events</string>
+    <string name="calendar_sync_refresh">Refresh system calendar</string>
+    <string name="calendar_event_permission_hint">"Read calendar" permission is required to sync system calendar events</string>
+    <string name="calendar_sync_in_progress">Syncing system calendar…</string>
+    <string name="calendar_sync_done">Synced: %1$d added, %2$d refreshed, %3$d removed</string>
+    <string name="calendar_sync_failed">Sync failed. Check permissions and try again.</string>
+    <string name="calendar_sync_not_permitted">"Read calendar" permission is not granted. Cannot sync.</string>
+    <string name="calendar_event_delete">Delete this event</string>
+    <string name="calendar_event_delete_title">Delete this event?</string>
+    <string name="calendar_event_delete_message">Only removed from this app, not from the system calendar. You can undo or restore from "Deleted events".</string>
+    <string name="calendar_event_all_day">All day</string>
+    <string name="undo">Undo</string>
+    <string name="calendar_event_deleted_snackbar">Deleted "%1$s"</string>
+    <string name="calendar_event_deleted_entry">Deleted events (%1$d)</string>
+    <string name="calendar_event_deleted_title">Deleted events</string>
+    <string name="calendar_event_restore">Restore</string>
+    <string name="calendar_event_delete_permanent">Delete permanently</string>
+    <string name="calendar_event_deleted_empty">No deleted events</string>
+    <string name="calendar_event_deleted_close">Close</string>
+
+    <!-- New event -->
+    <string name="event_add">New event</string>
+    <string name="event_edit_title">New Event</string>
+    <string name="event_title">Title</string>
+    <string name="event_title_hint">e.g. Hospital follow-up</string>
+    <string name="event_title_required">Please enter an event title</string>
+    <string name="event_date">Date</string>
+    <string name="event_all_day">All day</string>
+    <string name="event_all_day_hint">Scheduled by date only, no start/end time</string>
+    <string name="event_start_time">Start time</string>
+    <string name="event_end_time">End time</string>
+    <string name="event_time_invalid">End time must be after start time</string>
+    <string name="event_location">Location</string>
+    <string name="event_description">Notes</string>
+    <string name="event_description_hint">Optional</string>
+    <string name="event_remind">Remind me</string>
+    <string name="event_remind_hint">Remind according to "Event reminder settings" at the scheduled time</string>
+    <string name="confirm">OK</string>
+
+    <!-- System calendar event reminder · global settings -->
+    <string name="calendar_settings_title">Event Reminder Settings</string>
+    <string name="calendar_settings_note">These settings apply only to system calendar event reminders, not to interval reminders.</string>
+    <string name="calendar_auto_sync">Auto-sync system calendar</string>
+    <string name="calendar_auto_sync_hint">Automatically read system calendar events on startup and in the background</string>
+    <string name="calendar_lead_minutes">Remind before (minutes)</string>
+    <string name="calendar_lead_minutes_hint">0 means remind at event start; e.g. 10 means 10 minutes early</string>
+    <string name="calendar_sync_sources_title">Calendars to sync</string>
+    <string name="calendar_sync_sources_hint">Unchecked calendars won\'t be imported or trigger reminders. System read-only calendars (holidays, seasons, etc.) are unchecked by default.</string>
+    <string name="calendar_source_read_only">System read-only</string>
+    <string name="calendar_sources_permission_hint">"Read calendar" permission is required to list and select calendars to sync</string>
+    <string name="calendar_sources_empty">No calendars available to sync</string>
+
+    <!-- Language -->
+    <string name="language">Language</string>
+    <string name="lang_follow_system">Follow system</string>
+
+    <!-- Background keep-alive settings screen -->
+    <string name="keep_alive_settings_title">Background keep-alive</string>
+    <string name="keep_alive_rom_detected">Detected system: %1$s</string>
+    <string name="keep_alive_rom_unknown_hint">No specific system detected. Follow the general steps below.</string>
+    <string name="keep_alive_list_note">To make sure reminders fire on time, check each item. Settings paths may vary slightly by system version.</string>
+    <string name="keep_alive_notification">Notifications</string>
+    <string name="keep_alive_notification_desc">Show a banner when it is time</string>
+    <string name="keep_alive_exact_alarm">Exact alarms</string>
+    <string name="keep_alive_exact_alarm_desc">Trigger on time (Android 12+ needs confirmation)</string>
+    <string name="keep_alive_battery">Battery optimization</string>
+    <string name="keep_alive_battery_desc">Turn off optimization for this app so background work is not restricted</string>
+    <string name="keep_alive_overlay">Overlay permission</string>
+    <string name="keep_alive_overlay_desc">Needed for the top banner reminder (optional)</string>
+    <string name="keep_alive_autostart">Auto-start / background management</string>
+    <string name="keep_alive_autostart_desc">Allow the app to auto-start and run in the background (path differs by system)</string>
+    <string name="keep_alive_status_ok">Ready</string>
+    <string name="keep_alive_status_missing">Action needed</string>
+    <string name="keep_alive_action_open">Open</string>
+    <string name="keep_alive_action_settings">Settings</string>
+    <string name="keep_alive_autostart_hint">On some systems you also need to pull down the app card in Recents and lock it, so it is not cleared by a one-tap sweep.</string>
+
+    <!-- ROM display names -->
+    <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>
+    <string name="rom_huawei">Huawei (HarmonyOS)</string>
+    <string name="rom_honor">Honor (MagicOS)</string>
+    <string name="rom_oppo">OPPO / Realme / OnePlus (ColorOS)</string>
+    <string name="rom_vivo">vivo / iQOO (OriginOS)</string>
+    <string name="rom_samsung">Samsung (One UI)</string>
+    <string name="rom_meizu">Meizu (Flyme)</string>
+    <string name="rom_other">Other / Stock Android</string>
+</resources>

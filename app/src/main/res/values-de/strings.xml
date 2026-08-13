@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Pünktlich</string>
+
+    <!-- Listenbildschirm -->
+    <string name="reminder_list_title">Meine Erinnerungen</string>
+    <string name="add_reminder">Neue Erinnerung</string>
+    <string name="empty_list">Noch keine Erinnerungen\nTippe unten auf +, um eine zu erstellen</string>
+    <string name="next_trigger_at">Nächste: %1$s</string>
+    <string name="enabled">Aktiviert</string>
+    <string name="disabled">Deaktiviert</string>
+    <string name="delete">Löschen</string>
+    <string name="edit">Bearbeiten</string>
+
+    <!-- Bearbeitungsbildschirm -->
+    <string name="create_title">Neue Erinnerung</string>
+    <string name="edit_title">Erinnerung bearbeiten</string>
+    <string name="reminder_name">Name der Erinnerung</string>
+    <string name="reminder_name_hint">z. B. Medikamente nehmen</string>
+    <string name="interval">Intervall</string>
+    <string name="interval_unit_minutes">Min.</string>
+    <string name="interval_unit_hours">Std.</string>
+    <string name="interval_unit_days">Tage</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">Ton</string>
+    <string name="sound_hint">Läutet auch, wenn System-Benachrichtigungstöne deaktiviert sind</string>
+    <string name="ringtone">Klingelton</string>
+    <string name="ringtone_default">Systemweiter Standard-Alarmton</string>
+    <string name="choose_ringtone">Klingelton wählen</string>
+    <string name="ringtone_local">Lokale Audiodatei</string>
+    <string name="ringtone_reset">Zurücksetzen</string>
+    <string name="local_audio_pick_failed">Zugriff auf diese Audiodatei konnte nicht gespeichert werden. Versuche eine andere Datei.</string>
+    <string name="sound_volume">Lautstärke</string>
+    <string name="sound_volume_percent">%1$d %%</string>
+    <string name="sound_duration">Dauer</string>
+    <string name="sound_duration_seconds">%1$d s</string>
+    <string name="vibration_enabled">Vibration</string>
+    <string name="vibration_hint">Vibriert auch, wenn die System-Benachrichtigungsvibration deaktiviert ist</string>
+    <string name="overlay_enabled">Pop-up-Fenster</string>
+    <string name="overlay_hint">Erinnerung oben auf dem Bildschirm anzeigen</string>
+    <string name="save">Speichern</string>
+    <string name="name_required">Bitte gib einen Namen für die Erinnerung ein</string>
+    <string name="interval_invalid">Bitte gib ein Intervall größer als 0 ein</string>
+    <string name="trigger_time">Auslösezeit</string>
+    <string name="trigger_time_hint">Gilt nur für Tagesintervalle. Wird immer zu dieser Zeit ausgelöst (z. B. alle 2 Tage um 06:00)</string>
+
+    <!-- Berechtigungshinweise -->
+    <string name="permission_hint_title">Berechtigungen erforderlich</string>
+    <string name="permission_hint_notification">Benachrichtigungsberechtigung ist deaktiviert. Banner werden nicht angezeigt.</string>
+    <string name="permission_hint_exact_alarm">Berechtigung für exakte Wecker ist deaktiviert. Erinnerungen werden möglicherweise nicht pünktlich ausgelöst.</string>
+    <string name="permission_hint_battery">Batterieoptimierung ist aktiviert. Erinnerungen im Hintergrund können sich verzögern.</string>
+    <string name="grant_permission">Aktivieren</string>
+    <string name="overlay_permission_hint">Das Pop-up-Fenster benötigt die Berechtigung «Über anderen Apps einblenden»</string>
+    <string name="grant_overlay">Aktivieren</string>
+
+    <!-- Hintergrund-Ausführung -->
+    <string name="autostart_hint_title">Hintergrund-Einstellungen</string>
+    <string name="autostart_hint_text">Damit Erinnerungen pünktlich ankommen, erlaube den Autostart der App und sperre ihre Karte in den zuletzt verwendeten Apps, indem du sie nach unten ziehst.</string>
+    <string name="open_autostart_settings">Einstellungen öffnen</string>
+
+    <!-- Benachrichtigungen -->
+    <string name="notification_channel_vibration">Erinnerungen (Vibration)</string>
+    <string name="notification_channel_silent">Erinnerungen (Stumm)</string>
+    <string name="notification_channel_service">Hintergrunddienst</string>
+    <string name="notification_channel_service_desc">Hält die App im Hintergrund, damit Erinnerungen pünktlich ankommen</string>
+    <string name="service_notification_title">Pünktlich läuft</string>
+    <string name="service_notification_text">Läuft im Hintergrund, um Erinnerungen pünktlich zuzustellen</string>
+    <string name="notification_content">Es ist Zeit! Vergiss nicht, dies zu erledigen</string>
+    <string name="notification_action_complete">Erledigt</string>
+    <string name="notification_action_snooze">In 1 Stunde erinnern</string>
+
+    <!-- Bearbeitungsbildschirm · Nachricht -->
+    <string name="reminder_message">Nachricht</string>
+    <string name="reminder_message_hint">Text in der Benachrichtigung (leer = Standardtext)</string>
+
+    <!-- Kalender -->
+    <string name="calendar_title">Kalender</string>
+    <string name="calendar_legend_completed">Abgeschlossen</string>
+    <string name="calendar_legend_triggered">Ausgelöst</string>
+    <string name="calendar_legend_snoozed">Verschoben</string>
+    <string name="calendar_go_today">Heute</string>
+    <string name="calendar_no_record">Keine Einträge an diesem Tag</string>
+    <string name="calendar_delete_record">Eintrag löschen</string>
+    <string name="calendar_delete_record_title">Diesen Eintrag löschen?</string>
+    <string name="calendar_delete_record_message">Diese Aktion kann nicht rückgängig gemacht werden.</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="calendar_legend_global_hint">Punkte sind Erinnerungen (tippe auf ein Datum für Details)</string>
+    <string name="calendar_prev_month">Vorheriger Monat</string>
+    <string name="calendar_next_month">Nächster Monat</string>
+    <string name="calendar_open">Kalender ansehen</string>
+    <string name="calendar_global_open">Kalender aller Erinnerungen ansehen</string>
+
+    <!-- Untere Navigation -->
+    <string name="nav_tab_reminders">Erinnerungen</string>
+    <string name="nav_tab_calendar">Kalender</string>
+
+    <!-- Kalender · Mehrfach löschen -->
+    <string name="calendar_batch_delete">Mehrfach löschen</string>
+    <string name="calendar_batch_select_all">Alle auswählen</string>
+    <string name="calendar_batch_selected">Auswahl löschen</string>
+    <string name="calendar_batch_delete_title">Die %1$d ausgewählten Einträge löschen?</string>
+
+    <!-- Kalender · Systemtermine -->
+    <string name="calendar_settings">Einstellungen</string>
+    <string name="calendar_mode_triggers">Auslösungen</string>
+    <string name="calendar_mode_events">Termine</string>
+    <string name="calendar_sync_refresh">Systemkalender aktualisieren</string>
+    <string name="calendar_event_permission_hint">Für die Synchronisierung des Systemkalenders ist die Berechtigung «Kalender lesen» erforderlich</string>
+    <string name="calendar_sync_in_progress">Systemkalender wird synchronisiert…</string>
+    <string name="calendar_sync_done">Synchronisiert: %1$d hinzugefügt, %2$d aktualisiert, %3$d entfernt</string>
+    <string name="calendar_sync_failed">Synchronisierung fehlgeschlagen. Überprüfe die Berechtigungen und versuche es erneut.</string>
+    <string name="calendar_sync_not_permitted">Die Berechtigung «Kalender lesen» ist nicht erteilt. Synchronisierung nicht möglich.</string>
+    <string name="calendar_event_delete">Diesen Termin löschen</string>
+    <string name="calendar_event_delete_title">Diesen Termin löschen?</string>
+    <string name="calendar_event_delete_message">Wird nur aus dieser App entfernt, ohne Auswirkung auf den Systemkalender. Du kannst rückgängig machen oder über «Gelöschte Termine» wiederherstellen.</string>
+    <string name="calendar_event_all_day">Ganztägig</string>
+    <string name="undo">Rückgängig</string>
+    <string name="calendar_event_deleted_snackbar">«%1$s» gelöscht</string>
+    <string name="calendar_event_deleted_entry">Gelöschte Termine (%1$d)</string>
+    <string name="calendar_event_deleted_title">Gelöschte Termine</string>
+    <string name="calendar_event_restore">Wiederherstellen</string>
+    <string name="calendar_event_delete_permanent">Endgültig löschen</string>
+    <string name="calendar_event_deleted_empty">Keine gelöschten Termine</string>
+    <string name="calendar_event_deleted_close">Schließen</string>
+
+    <!-- Neuer Termin -->
+    <string name="event_add">Neuer Termin</string>
+    <string name="event_edit_title">Neuer Termin</string>
+    <string name="event_title">Titel</string>
+    <string name="event_title_hint">z. B. Arzt-Nachuntersuchung</string>
+    <string name="event_title_required">Bitte gib einen Titel für den Termin ein</string>
+    <string name="event_date">Datum</string>
+    <string name="event_all_day">Ganztägig</string>
+    <string name="event_all_day_hint">Nur nach Datum geplant, ohne Start-/Endzeit</string>
+    <string name="event_start_time">Startzeit</string>
+    <string name="event_end_time">Endzeit</string>
+    <string name="event_time_invalid">Die Endzeit muss nach der Startzeit liegen</string>
+    <string name="event_location">Ort</string>
+    <string name="event_description">Notizen</string>
+    <string name="event_description_hint">Optional</string>
+    <string name="event_remind">Mich erinnern</string>
+    <string name="event_remind_hint">Erinnerung gemäß den «Terminerinnerungs-Einstellungen» zur geplanten Zeit</string>
+    <string name="confirm">OK</string>
+
+    <!-- Terminerinnerungen · globale Einstellungen -->
+    <string name="calendar_settings_title">Einstellungen für Terminerinnerungen</string>
+    <string name="calendar_settings_note">Diese Einstellungen gelten nur für Terminerinnerungen des Systemkalenders, nicht für Intervall-Erinnerungen.</string>
+    <string name="calendar_auto_sync">Systemkalender automatisch synchronisieren</string>
+    <string name="calendar_auto_sync_hint">Systemkalender beim Start und im Hintergrund automatisch lesen</string>
+    <string name="calendar_lead_minutes">Vorher erinnern (Min.)</string>
+    <string name="calendar_lead_minutes_hint">0 = beim Terminstart erinnern; z. B. 10 = 10 Minuten vorher</string>
+    <string name="calendar_sync_sources_title">Zu synchronisierende Kalender</string>
+    <string name="calendar_sync_sources_hint">Nicht ausgewählte Kalender werden nicht importiert und lösen keine Erinnerungen aus. Schreibgeschützte Systemkalender (Feiertage, Jahreszeiten usw.) sind standardmäßig deaktiviert.</string>
+    <string name="calendar_source_read_only">Schreibgeschützt (System)</string>
+    <string name="calendar_sources_permission_hint">Für die Anzeige und Auswahl der zu synchronisierenden Kalender ist die Berechtigung «Kalender lesen» erforderlich</string>
+    <string name="calendar_sources_empty">Keine Kalender zum Synchronisieren gefunden</string>
+
+    <!-- Sprache -->
+    <string name="language">Sprache</string>
+    <string name="lang_follow_system">System folgen</string>
+</resources>

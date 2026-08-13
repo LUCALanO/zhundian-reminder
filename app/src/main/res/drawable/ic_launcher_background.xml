@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 启动图标背景：浅色奶油渐变（顶部更亮 → 底部略暖），与内部 Material 3 中性浅色界面统一 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="#FDF6EA"
+        android:endColor="#F4E6CC" />
+</shape>

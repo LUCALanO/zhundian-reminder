@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Вовремя</string>
+
+    <!-- Список -->
+    <string name="reminder_list_title">Мои напоминания</string>
+    <string name="add_reminder">Новое напоминание</string>
+    <string name="empty_list">Пока нет напоминаний\nНажмите + внизу, чтобы создать</string>
+    <string name="next_trigger_at">Следующее: %1$s</string>
+    <string name="enabled">Вкл</string>
+    <string name="disabled">Выкл</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+
+    <!-- Редактирование -->
+    <string name="create_title">Новое напоминание</string>
+    <string name="edit_title">Изменить напоминание</string>
+    <string name="reminder_name">Название</string>
+    <string name="reminder_name_hint">Например: принять лекарство</string>
+    <string name="interval">Интервал</string>
+    <string name="interval_unit_minutes">мин</string>
+    <string name="interval_unit_hours">ч</string>
+    <string name="interval_unit_days">дн</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">Звук</string>
+    <string name="sound_hint">Будет звучать, даже если звук системных уведомлений отключён</string>
+    <string name="ringtone">Мелодия</string>
+    <string name="ringtone_default">Системная мелодия будильника по умолчанию</string>
+    <string name="choose_ringtone">Выбрать мелодию</string>
+    <string name="ringtone_local">Локальное аудио</string>
+    <string name="ringtone_reset">Сбросить</string>
+    <string name="local_audio_pick_failed">Не удалось сохранить доступ к этому аудио. Попробуйте другой файл.</string>
+    <string name="sound_volume">Громкость</string>
+    <string name="sound_volume_percent">%1$d%%</string>
+    <string name="sound_duration">Длительность</string>
+    <string name="sound_duration_seconds">%1$d с</string>
+    <string name="vibration_enabled">Вибрация</string>
+    <string name="vibration_hint">Будет вибрировать, даже если вибрация системных уведомлений отключена</string>
+    <string name="overlay_enabled">Всплывающее окно</string>
+    <string name="overlay_hint">Показывать напоминание в верхней части экрана</string>
+    <string name="save">Сохранить</string>
+    <string name="name_required">Введите название напоминания</string>
+    <string name="interval_invalid">Введите интервал больше 0</string>
+    <string name="trigger_time">Время срабатывания</string>
+    <string name="trigger_time_hint">Работает только для интервалов в днях. Срабатывание всегда в это время (например, каждые 2 дня в 06:00)</string>
+
+    <!-- Разрешения -->
+    <string name="permission_hint_title">Требуются разрешения</string>
+    <string name="permission_hint_notification">Разрешение на уведомления отключено, баннер не будет показываться</string>
+    <string name="permission_hint_exact_alarm">Разрешение на точные будильники отключено, напоминание может сработать с задержкой</string>
+    <string name="permission_hint_battery">Оптимизация батареи включена, фоновые напоминания могут задерживаться</string>
+    <string name="grant_permission">Включить</string>
+    <string name="overlay_permission_hint">Для всплывающего окна нужно разрешение «Поверх других приложений»</string>
+    <string name="grant_overlay">Включить</string>
+
+    <!-- Фоновый запуск -->
+    <string name="autostart_hint_title">Настройки фонового запуска</string>
+    <string name="autostart_hint_text">Чтобы напоминания приходили вовремя, разрешите автозапуск приложения и закрепите его карточку в «Недавних», потянув вниз.</string>
+    <string name="open_autostart_settings">Открыть настройки</string>
+
+    <!-- Уведомления -->
+    <string name="notification_channel_vibration">Напоминания (вибрация)</string>
+    <string name="notification_channel_silent">Напоминания (без звука)</string>
+    <string name="notification_channel_service">Фоновая работа</string>
+    <string name="notification_channel_service_desc">Держит приложение в фоне, чтобы напоминания приходили вовремя</string>
+    <string name="service_notification_title">Вовремя работает</string>
+    <string name="service_notification_text">Работает в фоне, чтобы напоминания приходили вовремя</string>
+    <string name="notification_content">Пора! Не забудьте сделать это</string>
+    <string name="notification_action_complete">Готово</string>
+    <string name="notification_action_snooze">Напомнить через 1 час</string>
+
+    <!-- Редактирование · сообщение -->
+    <string name="reminder_message">Сообщение</string>
+    <string name="reminder_message_hint">Текст в уведомлении (пусто — текст по умолчанию)</string>
+
+    <!-- Календарь -->
+    <string name="calendar_title">Календарь</string>
+    <string name="calendar_legend_completed">Выполнено</string>
+    <string name="calendar_legend_triggered">Сработало</string>
+    <string name="calendar_legend_snoozed">Перенесено</string>
+    <string name="calendar_go_today">Сегодня</string>
+    <string name="calendar_no_record">Записей нет</string>
+    <string name="calendar_delete_record">Удалить запись</string>
+    <string name="calendar_delete_record_title">Удалить эту запись?</string>
+    <string name="calendar_delete_record_message">Действие необратимо.</string>
+    <string name="cancel">Отмена</string>
+    <string name="calendar_legend_global_hint">Точки — это напоминания (нажмите на дату для деталей)</string>
+    <string name="calendar_prev_month">Предыдущий месяц</string>
+    <string name="calendar_next_month">Следующий месяц</string>
+    <string name="calendar_open">Открыть календарь</string>
+    <string name="calendar_global_open">Открыть календарь всех напоминаний</string>
+
+    <!-- Нижняя навигация -->
+    <string name="nav_tab_reminders">Напоминания</string>
+    <string name="nav_tab_calendar">Календарь</string>
+
+    <!-- Календарь · множественное удаление -->
+    <string name="calendar_batch_delete">Удалить несколько</string>
+    <string name="calendar_batch_select_all">Выбрать все</string>
+    <string name="calendar_batch_selected">Удалить выбранное</string>
+    <string name="calendar_batch_delete_title">Удалить выбранные записи (%1$d)?</string>
+
+    <!-- Календарь · системные события -->
+    <string name="calendar_settings">Настройки</string>
+    <string name="calendar_mode_triggers">Срабатывания</string>
+    <string name="calendar_mode_events">События</string>
+    <string name="calendar_sync_refresh">Обновить системный календарь</string>
+    <string name="calendar_event_permission_hint">Для синхронизации системного календаря нужно разрешение «Чтение календаря»</string>
+    <string name="calendar_sync_in_progress">Синхронизация системного календаря…</string>
+    <string name="calendar_sync_done">Синхронизировано: добавлено %1$d, обновлено %2$d, удалено %3$d</string>
+    <string name="calendar_sync_failed">Ошибка синхронизации. Проверьте разрешения и попробуйте снова.</string>
+    <string name="calendar_sync_not_permitted">Разрешение «Чтение календаря» не выдано. Синхронизация невозможна.</string>
+    <string name="calendar_event_delete">Удалить событие</string>
+    <string name="calendar_event_delete_title">Удалить это событие?</string>
+    <string name="calendar_event_delete_message">Удаляется только из этого приложения, системный календарь не меняется. Можно отменить или восстановить из «Удалённых событий».</string>
+    <string name="calendar_event_all_day">Весь день</string>
+    <string name="undo">Отменить</string>
+    <string name="calendar_event_deleted_snackbar">«%1$s» удалено</string>
+    <string name="calendar_event_deleted_entry">Удалённые события (%1$d)</string>
+    <string name="calendar_event_deleted_title">Удалённые события</string>
+    <string name="calendar_event_restore">Восстановить</string>
+    <string name="calendar_event_delete_permanent">Удалить навсегда</string>
+    <string name="calendar_event_deleted_empty">Нет удалённых событий</string>
+    <string name="calendar_event_deleted_close">Закрыть</string>
+
+    <!-- Новое событие -->
+    <string name="event_add">Новое событие</string>
+    <string name="event_edit_title">Новое событие</string>
+    <string name="event_title">Название</string>
+    <string name="event_title_hint">Например: осмотр у врача</string>
+    <string name="event_title_required">Введите название события</string>
+    <string name="event_date">Дата</string>
+    <string name="event_all_day">Весь день</string>
+    <string name="event_all_day_hint">Планируется только по дате, без времени начала и конца</string>
+    <string name="event_start_time">Начало</string>
+    <string name="event_end_time">Конец</string>
+    <string name="event_time_invalid">Время окончания должно быть позже времени начала</string>
+    <string name="event_location">Место</string>
+    <string name="event_description">Заметки</string>
+    <string name="event_description_hint">Необязательно</string>
+    <string name="event_remind">Напомнить</string>
+    <string name="event_remind_hint">Напоминать по правилам «настроек напоминаний о событиях»</string>
+    <string name="confirm">ОК</string>
+
+    <!-- Напоминания о событиях · общие настройки -->
+    <string name="calendar_settings_title">Настройки напоминаний о событиях</string>
+    <string name="calendar_settings_note">Эти настройки касаются только напоминаний о событиях системного календаря и не влияют на интервальные напоминания.</string>
+    <string name="calendar_auto_sync">Автосинхронизация системного календаря</string>
+    <string name="calendar_auto_sync_hint">Автоматически читать системный календарь при запуске и в фоне</string>
+    <string name="calendar_lead_minutes">Напомнить заранее (мин)</string>
+    <string name="calendar_lead_minutes_hint">0 — напоминание в начале события; например, 10 — за 10 минут</string>
+    <string name="calendar_sync_sources_title">Какие календари синхронизировать</string>
+    <string name="calendar_sync_sources_hint">Неотмеченные календари не импортируются и не вызывают напоминаний. Системные календари праздников, времён года и т. п. (только чтение) по умолчанию не отмечены.</string>
+    <string name="calendar_source_read_only">Только чтение (система)</string>
+    <string name="calendar_sources_permission_hint">Для отображения и выбора календарей нужно разрешение «Чтение календаря»</string>
+    <string name="calendar_sources_empty">Календари для синхронизации не найдены</string>
+
+    <!-- Язык -->
+    <string name="language">Язык</string>
+    <string name="lang_follow_system">По системе</string>
+</resources>

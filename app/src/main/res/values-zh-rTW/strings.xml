@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">準點</string>
+
+    <!-- 列表頁 -->
+    <string name="reminder_list_title">我的提醒</string>
+    <string name="add_reminder">新增提醒</string>
+    <string name="empty_list">還沒有提醒\n點擊右下角新增一個吧</string>
+    <string name="next_trigger_at">下次提醒：%1$s</string>
+    <string name="enabled">啟用</string>
+    <string name="disabled">已停用</string>
+    <string name="delete">刪除</string>
+    <string name="edit">編輯</string>
+
+    <!-- 編輯頁 -->
+    <string name="create_title">新增提醒</string>
+    <string name="edit_title">編輯提醒</string>
+    <string name="reminder_name">提醒名稱</string>
+    <string name="reminder_name_hint">例如：吃藥</string>
+    <string name="interval">提醒間隔</string>
+    <string name="interval_unit_minutes">分鐘</string>
+    <string name="interval_unit_hours">小時</string>
+    <string name="interval_unit_days">天</string>
+    <string name="interval_format">%1$d %2$s</string>
+    <string name="sound_enabled">聲音</string>
+    <string name="sound_hint">即使系統通知聲音已關閉也會響鈴</string>
+    <string name="ringtone">提醒鈴聲</string>
+    <string name="ringtone_default">系統預設鬧鐘鈴聲</string>
+    <string name="choose_ringtone">選擇鈴聲</string>
+    <string name="ringtone_local">本機音訊</string>
+    <string name="ringtone_reset">恢復預設</string>
+    <string name="local_audio_pick_failed">無法保存該音訊的存取權限，請換一個檔案試試</string>
+    <string name="sound_volume">響鈴音量</string>
+    <string name="sound_volume_percent">%1$d%%</string>
+    <string name="sound_duration">響鈴時長</string>
+    <string name="sound_duration_seconds">%1$d秒</string>
+    <string name="vibration_enabled">震動</string>
+    <string name="vibration_hint">即使系統通知震動已關閉也會震動</string>
+    <string name="overlay_enabled">頂部彈出視窗</string>
+    <string name="overlay_hint">時間到時在螢幕上方彈出提醒</string>
+    <string name="save">儲存</string>
+    <string name="name_required">請輸入提醒名稱</string>
+    <string name="interval_invalid">請輸入大於 0 的間隔</string>
+    <string name="trigger_time">觸發時刻</string>
+    <string name="trigger_time_hint">僅在「天」間隔生效，到點固定在該時刻（如每 2 天 06:00）</string>
+
+    <!-- 權限提示 -->
+    <string name="permission_hint_title">需要開啟權限</string>
+    <string name="permission_hint_notification">通知權限未開啟，提醒將無法彈出橫幅通知</string>
+    <string name="permission_hint_exact_alarm">精確鬧鐘權限未開啟，提醒可能無法準時觸發</string>
+    <string name="permission_hint_battery">電池最佳化未關閉，背景可能無法準時觸發提醒</string>
+    <string name="grant_permission">前往開啟</string>
+    <string name="overlay_permission_hint">頂部彈出視窗需要「顯示於其他應用程式上層」權限</string>
+    <string name="grant_overlay">前往開啟</string>
+
+    <!-- 背景保活引導 -->
+    <string name="autostart_hint_title">背景保持運作設定</string>
+    <string name="autostart_hint_text">為確保提醒準時送達，請允許本應用程式自動啟動，並在最近使用的應用程式中將本應用程式卡片向下滑動以鎖定，避免被系統清除</string>
+    <string name="open_autostart_settings">前往設定</string>
+
+    <!-- 通知 -->
+    <string name="notification_channel_vibration">提醒（震動）</string>
+    <string name="notification_channel_silent">提醒（靜音）</string>
+    <string name="notification_channel_service">背景執行</string>
+    <string name="notification_channel_service_desc">保持應用程式於背景執行以確保提醒準時送達</string>
+    <string name="service_notification_title">準點執行中</string>
+    <string name="service_notification_text">正在背景執行，確保提醒準時送達</string>
+    <string name="notification_content">時間到了，記得做這件事</string>
+    <string name="notification_action_complete">完成</string>
+    <string name="notification_action_snooze">再隔 1 小時提醒</string>
+
+    <!-- 編輯頁 · 提醒語 -->
+    <string name="reminder_message">提醒語</string>
+    <string name="reminder_message_hint">時間到通知顯示的文字（留空使用預設文案）</string>
+
+    <!-- 日曆 -->
+    <string name="calendar_title">日曆</string>
+    <string name="calendar_legend_completed">已完成</string>
+    <string name="calendar_legend_triggered">已觸發</string>
+    <string name="calendar_legend_snoozed">已改期</string>
+    <string name="calendar_go_today">回到今天</string>
+    <string name="calendar_no_record">當天無記錄</string>
+    <string name="calendar_delete_record">刪除這筆記錄</string>
+    <string name="calendar_delete_record_title">刪除這筆記錄？</string>
+    <string name="calendar_delete_record_message">刪除後無法復原。</string>
+    <string name="cancel">取消</string>
+    <string name="calendar_legend_global_hint">色點為各提醒（點擊日期查看當天明細）</string>
+    <string name="calendar_prev_month">上個月</string>
+    <string name="calendar_next_month">下個月</string>
+    <string name="calendar_open">檢視日曆</string>
+    <string name="calendar_global_open">檢視全部提醒日曆</string>
+
+    <!-- 底部導覽 -->
+    <string name="nav_tab_reminders">提醒</string>
+    <string name="nav_tab_calendar">日曆</string>
+
+    <!-- 日曆 · 批次刪除 -->
+    <string name="calendar_batch_delete">批次刪除</string>
+    <string name="calendar_batch_select_all">全選</string>
+    <string name="calendar_batch_selected">刪除選取項目</string>
+    <string name="calendar_batch_delete_title">刪除選取的 %1$d 筆記錄？</string>
+
+    <!-- 日曆 · 系統行程檢視 -->
+    <string name="calendar_settings">設定</string>
+    <string name="calendar_mode_triggers">觸發記錄</string>
+    <string name="calendar_mode_events">行程</string>
+    <string name="calendar_sync_refresh">重新整理系統日曆</string>
+    <string name="calendar_event_permission_hint">需要「讀取日曆」權限才能同步系統日曆行程</string>
+    <string name="calendar_sync_in_progress">正在同步系統日曆…</string>
+    <string name="calendar_sync_done">已同步：新增 %1$d、重新整理 %2$d、清理 %3$d</string>
+    <string name="calendar_sync_failed">同步失敗，請檢查權限後重試</string>
+    <string name="calendar_sync_not_permitted">未授權「讀取日曆」權限，無法同步</string>
+    <string name="calendar_event_delete">刪除這個行程</string>
+    <string name="calendar_event_delete_title">刪除這個行程？</string>
+    <string name="calendar_event_delete_message">僅從本 App 移除，不影響系統日曆；可復原或到「已刪除行程」恢復。</string>
+    <string name="calendar_event_all_day">全天</string>
+    <string name="undo">復原</string>
+    <string name="calendar_event_deleted_snackbar">已刪除「%1$s」</string>
+    <string name="calendar_event_deleted_entry">已刪除行程（%1$d）</string>
+    <string name="calendar_event_deleted_title">已刪除行程</string>
+    <string name="calendar_event_restore">恢復</string>
+    <string name="calendar_event_delete_permanent">永久刪除</string>
+    <string name="calendar_event_deleted_empty">沒有已刪除的行程</string>
+    <string name="calendar_event_deleted_close">關閉</string>
+
+    <!-- 新增行程 -->
+    <string name="event_add">新增行程</string>
+    <string name="event_edit_title">新增行程</string>
+    <string name="event_title">標題</string>
+    <string name="event_title_hint">例如：去醫院複診</string>
+    <string name="event_title_required">請輸入行程標題</string>
+    <string name="event_date">日期</string>
+    <string name="event_all_day">全天</string>
+    <string name="event_all_day_hint">僅依日期安排，不設定開始與結束時間</string>
+    <string name="event_start_time">開始時間</string>
+    <string name="event_end_time">結束時間</string>
+    <string name="event_time_invalid">結束時間需晚於開始時間</string>
+    <string name="event_location">地點</string>
+    <string name="event_description">備註</string>
+    <string name="event_description_hint">選填</string>
+    <string name="event_remind">準時提醒</string>
+    <string name="event_remind_hint">時間到依「行程提醒設定」的方式提醒</string>
+    <string name="confirm">確定</string>
+
+    <!-- 系統日曆行程提醒 · 全域設定 -->
+    <string name="calendar_settings_title">行程提醒設定</string>
+    <string name="calendar_settings_note">此設定僅適用於系統日曆行程提醒，不影響間隔提醒的每項提醒設定。</string>
+    <string name="calendar_auto_sync">自動同步系統日曆</string>
+    <string name="calendar_auto_sync_hint">App 啟動與背景執行時自動讀取系統日曆行程</string>
+    <string name="calendar_lead_minutes">提前提醒（分鐘）</string>
+    <string name="calendar_lead_minutes_hint">0 表示行程開始時提醒；例如填 10 表示提前 10 分鐘</string>
+    <string name="calendar_sync_sources_title">要同步哪些日曆</string>
+    <string name="calendar_sync_sources_hint">未勾選的日曆不會被匯入，也不會觸發提醒。系統內建的節日、節氣等唯讀日曆預設不勾選。</string>
+    <string name="calendar_source_read_only">系統唯讀</string>
+    <string name="calendar_sources_permission_hint">需要「讀取日曆」權限才能顯示並選擇要同步的日曆</string>
+    <string name="calendar_sources_empty">找不到可同步的日曆</string>
+
+    <!-- 語言切換 -->
+    <string name="language">語言</string>
+    <string name="lang_follow_system">跟隨系統</string>
+</resources>
