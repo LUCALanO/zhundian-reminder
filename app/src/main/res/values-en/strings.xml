@@ -178,6 +178,7 @@
     <string name="keep_alive_action_open">Open</string>
     <string name="keep_alive_action_settings">Settings</string>
     <string name="keep_alive_autostart_hint">On some systems you also need to pull down the app card in Recents and lock it, so it is not cleared by a one-tap sweep.</string>
+    <string name="keep_alive_reliability_note">Reminder reliability: even after completing all the settings above, aggressive power-saving policies on some systems may, with some probability, delay or block background execution (one-tap cleanup, deep sleep, power-saving modes, etc.). This is system behavior that no third-party app can fully control. Keep this app whitelisted for battery optimization, disable its power-saving restrictions, and avoid manual one-tap cleanup.</string>
 
     <!-- ROM display names -->
     <string name="rom_xiaomi">Xiaomi / Redmi (MIUI / HyperOS)</string>

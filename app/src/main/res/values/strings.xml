@@ -77,6 +77,7 @@
     <string name="keep_alive_action_open">去开启</string>
     <string name="keep_alive_action_settings">去设置</string>
     <string name="keep_alive_autostart_hint">部分系统还需在「最近任务」中下拉本应用卡片并锁定，防止被一键清理</string>
+    <string name="keep_alive_reliability_note">提醒可靠性说明：即使完成上述全部设置，部分系统的激进省电策略仍可能以一定概率推迟或阻止后台运行（一键清理、深度休眠、省电模式等）。此为系统行为，任何第三方应用都无法完全控制。建议将本应用加入电池优化白名单、关闭针对它的省电限制，并避免手动一键清理。</string>
 
     <!-- ROM 显示名 -->
     <string name="rom_xiaomi">小米 / 红米（MIUI / HyperOS）</string>
