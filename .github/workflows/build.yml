@@ -24,6 +24,12 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
+      - name: Switch Gradle distribution to official source (Tencent mirror times out on GitHub runners)
+        run: |
+          sed -i 's|mirrors.cloud.tencent.com/gradle|services.gradle.org/distributions|' gradle/wrapper/gradle-wrapper.properties
+          sed -i 's|^networkTimeout=.*|networkTimeout=60000|' gradle/wrapper/gradle-wrapper.properties
+          grep distributionUrl gradle/wrapper/gradle-wrapper.properties
+
       - name: Unit tests + build debug APK
         # 只构建 debug APK 并跑单测，无需发布签名；
         # 发布签名通过 KEYSTORE_* 环境变量从 secrets 注入（后续发布 Release 时启用）
