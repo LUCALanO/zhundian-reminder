@@ -4,6 +4,8 @@ A simple, reliable, privacy-first **fixed-interval reminder** app for Android：
 
 无需联网，数据全部保存在本地。
 
+> **🤖 Vibecoding 产物**：本项目由 Claude Code 调用 DeepSeek-V4-Flash API 驱动开发完成。
+
 ## 功能
 
 - **固定间隔循环提醒**：为每条提醒设置名称与间隔（分钟 / 小时 / 天），到点通知栏横幅提醒，并自动按同一间隔永久循环，直到停用或删除
@@ -56,7 +58,11 @@ JAVA_HOME="D:/Android/jdk-17.0.2" ./gradlew :app:testDebugUnitTest :app:assemble
 
 ## 截图
 
-待补充（`docs/screenshots/`）。
+| 提醒列表 | 编辑提醒 |
+| :---: | :---: |
+| <img src="docs/screenshots/list.jpg" width="220" alt="提醒列表"> | <img src="docs/screenshots/edit.jpg" width="220" alt="编辑提醒"> |
+| 日历 | 后台保活设置 |
+| <img src="docs/screenshots/calendar.jpg" width="220" alt="日历"> | <img src="docs/screenshots/keep-alive.jpg" width="220" alt="后台保活设置"> |
 
 ## License
 
