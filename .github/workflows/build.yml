@@ -24,11 +24,16 @@ jobs:
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
 
-      - name: Switch Gradle distribution to official source (Tencent mirror times out on GitHub runners)
+      - name: Switch to official sources for GitHub runners (China mirrors time out on GH)
         run: |
           sed -i 's|mirrors.cloud.tencent.com/gradle|services.gradle.org/distributions|' gradle/wrapper/gradle-wrapper.properties
           sed -i 's|^networkTimeout=.*|networkTimeout=60000|' gradle/wrapper/gradle-wrapper.properties
+          sed -i 's|maven.aliyun.com/repository/google|dl.google.com/dl/android/maven2|' settings.gradle.kts
+          sed -i 's|maven.aliyun.com/repository/public|repo.maven.apache.org/maven2|' settings.gradle.kts
+          sed -i 's|maven.aliyun.com/repository/central|repo.maven.apache.org/maven2|' settings.gradle.kts
+          sed -i 's|maven.aliyun.com/repository/gradle-plugin|plugins.gradle.org/m2|' settings.gradle.kts
           grep distributionUrl gradle/wrapper/gradle-wrapper.properties
+          grep -cE "dl.google.com|repo.maven.apache.org|plugins.gradle.org" settings.gradle.kts
 
       - name: Unit tests + build debug APK
         # 只构建 debug APK 并跑单测，无需发布签名；
