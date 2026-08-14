@@ -4,7 +4,7 @@ A simple, reliable, privacy-first **fixed-interval reminder** app for Android：
 
 无需联网，数据全部保存在本地。
 
-> **🤖 Vibecoding 产物**：本项目由 Claude Code 调用 DeepSeek-V4-Flash API 驱动开发完成。
+> **Vibecoding 产物**：本项目由 Claude Code 调用 DeepSeek-V4-Flash API 驱动开发完成。
 
 ## 功能
 
